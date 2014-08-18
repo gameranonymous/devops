@@ -1,0 +1,15 @@
+[submodule "puppet_configuration/modules/ruby"]
+	path = puppet_configuration/modules/ruby
+	url = https://github.com/puppetlabs/puppetlabs-ruby
+[submodule "puppet_configuration/modules/apt"]
+	path = puppet_configuration/modules/apt
+	url = https://github.com/puppetlabs/puppetlabs-apt
+[submodule "puppet_configuration/modules/stdlib"]
+	path = puppet_configuration/modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "puppet_configuration/modules/concat"]
+	path = puppet_configuration/modules/concat
+	url = https://github.com/puppetlabs/puppetlabs-concat.git
+[submodule "puppet_configuration/modules/postgresql"]
+	path = puppet_configuration/modules/postgresql
+	url = https://github.com/puppetlabs/puppetlabs-postgresql.git
