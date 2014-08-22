@@ -55,15 +55,21 @@ concat::fragment{"env_binding_port":
 }
 
 package { "ruby2.1-dev":
-      ensure => "installed"
+  ensure  => "installed",
+  require => Class["ruby"],
 }
 
 package { "libpq-dev":
-      ensure => "installed"
+  ensure  => "installed",
+  require => Package["ruby2.1-dev"],
+}
+
+package { "python-pip":
+  ensure => "installed",
 }
 
 exec { "gem install bundler":
-  require => Class['ruby'],
+  require => Package["ruby2.1-dev"],
   cwd     => '/tmp',
   path    => ['/usr/bin'],
 }
