@@ -22,3 +22,9 @@
 [submodule "puppet_configuration/modules/minecraft"]
 	path = puppet_configuration/modules/minecraft
 	url = git@github.com:andschwa/puppet-minecraft.git
+[submodule "puppet_configuration/modules/wget"]
+	path = puppet_configuration/modules/wget
+	url = git@github.com:maestrodev/puppet-wget.git
+[submodule "puppet_configuration/modules/mumble"]
+	path = puppet_configuration/modules/mumble
+	url = git@github.com:andschwa/puppet-mumble.git
