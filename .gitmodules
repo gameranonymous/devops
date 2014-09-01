@@ -22,6 +22,3 @@
 [submodule "puppet_configuration/modules/minecraft"]
 	path = puppet_configuration/modules/minecraft
 	url = git@github.com:andschwa/puppet-minecraft.git
-[submodule "puppet_configuration/modules/minecraft2"]
-	path = puppet_configuration/modules/minecraft2
-	url = git@github.com:andschwa/puppet-minecraft.git
