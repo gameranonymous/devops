@@ -10,8 +10,8 @@
 * run:
 
 ```
-git clone https://github.com/samphippen/gameranonymous-puppet
-cd gameranonymous-puppet
+git clone https://github.com/gameranonymous/devops
+cd devops
 git submodule init
 git submodule update
 puppet apply --modulepath puppet_configuration/modules puppet_configuration/site.pp
