@@ -89,3 +89,11 @@ exec { "gem install bundler":
   cwd     => '/tmp',
   path    => ['/usr/bin'],
 }
+
+class { 'minecraft':
+  source     => 'recommended',
+  heap_size  => 2048,
+  difficulty => 2,
+  motd       => 'Managed by Puppet!',
+  ops        => [ 'didlix', 'op2' ]
+}
