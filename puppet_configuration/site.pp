@@ -7,7 +7,7 @@ class { 'minecraft':
   difficulty => 2,
   motd       => 'Gamer Anonymous. Please follow our code of conduct at www.gameranonymous.com.  Hosting by ByteMark.',
   ops        => [ 'didlix', 'discomcdisco' ],
-  white_list_players => [ 'ntlk', 'charlotteis', 'semanticist' ],
+  white_list_players => [ 'ntlk', 'charlotteis', 'semanticist', 'sgsabbage' ],
   level_name => 'Themyscira',
   level_seed => 'Themyscira'
 }
