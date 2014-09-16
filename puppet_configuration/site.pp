@@ -6,5 +6,6 @@ class { 'minecraft':
   heap_size  => 2048,
   difficulty => 2,
   motd       => 'Gamer Anonymous. Please follow our code of conduct at www.gameranonymous.com.  Hosting by ByteMark.',
-  ops        => [ 'didlix', 'discomcdisco' ]
+  ops        => [ 'didlix', 'discomcdisco' ],
+  white_list_players => [ 'ntlk' ]
 }
