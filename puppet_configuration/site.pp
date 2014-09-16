@@ -8,5 +8,6 @@ class { 'minecraft':
   motd       => 'Gamer Anonymous. Please follow our code of conduct at www.gameranonymous.com.  Hosting by ByteMark.',
   ops        => [ 'didlix', 'discomcdisco' ],
   white_list_players => [ 'ntlk', 'charlotteis', 'semanticist' ],
-  level_name => 'Themyscira'
+  level_name => 'Themyscira',
+  level_seed => 'Themyscira'
 }
