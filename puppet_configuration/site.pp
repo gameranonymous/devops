@@ -12,5 +12,6 @@ class { 'minecraft':
   level_seed => 'Themyscira',
   gamemode => 0,
   force_gamemode => true,
+  spawn_protection => 0,
   white_list => true
 }
