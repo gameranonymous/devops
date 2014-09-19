@@ -9,5 +9,8 @@ class { 'minecraft':
   ops        => [ 'didlix', 'discomcdisco' ],
   white_list_players => [ 'ntlk', 'charlotteis', 'semanticist', 'rnalexander' ],
   level_name => 'Themyscira',
-  level_seed => 'Themyscira'
+  level_seed => 'Themyscira',
+  gamemode => 0,
+  force_gamemode => true,
+  white_list => true
 }
