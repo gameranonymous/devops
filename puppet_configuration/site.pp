@@ -7,7 +7,7 @@ class { 'minecraft':
   difficulty => 2,
   motd       => 'Gamer Anonymous. Please follow our code of conduct at www.gameranonymous.com.  Hosting by ByteMark.',
   ops        => [ 'didlix', 'charlotteis' ],
-  white_list_players => [ 'ntlk', 'semanticist', 'rnalexander', 'sgsabbage', 'discomcdisco', 'domdomdomdomdom', 'zeimpossibleface', 'sw17ch', 'bobolous', 'deValmont', 'SamLindenRathen' ],
+  white_list_players => [ 'ntlk', 'semanticist', 'rnalexander', 'sgsabbage', 'discomcdisco', 'domdomdomdomdom', 'zeimpossibleface', 'sw17ch', 'bobolous', 'deValmont', 'SamLindenRathen', 'nedraed' ],
   level_name => 'Themyscira',
   level_seed => 'Themyscira',
   gamemode => 0,
